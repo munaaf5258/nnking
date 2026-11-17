@@ -2,190 +2,112 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>King Of Nifty | Trading Education</title>
-<meta name="description" content="Explore stock market education, NIFTY concepts, BANKNIFTY analysis and market learning with King Of Nifty.">
-
-<!-- Meta Pixel: Add your Pixel ID here -->
-<!--
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','YOUR_PIXEL_ID');
-fbq('track','PageView');
-</script>
--->
+<title>King Of Nifty | Official Learning Community</title>
+<meta name="description" content="Explore NIFTY, BANKNIFTY, technical analysis and stock market educational content.">
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-
 body{
-font-family:Arial,sans-serif;
-background:#080b12;
-color:#fff;
-line-height:1.6;
+ background:#050914;
+ color:#fff;
+ font-family:Arial,sans-serif;
+ line-height:1.6;
 }
-
 header{
-padding:20px;
-text-align:center;
-background:#101725;
-border-bottom:1px solid #b58a36;
+ background:#080e1b;
+ padding:17px 12px;
+ text-align:center;
+ border-bottom:2px solid #d8a82e;
 }
-
-.logo{
-font-size:25px;
-font-weight:900;
-color:#f5c75e;
-letter-spacing:1px;
-}
-
+.logo{font-size:25px;font-weight:900;color:#ffd45c}
+.logo span{color:white}
 .hero{
-padding:65px 20px;
-text-align:center;
-background:
-radial-gradient(circle at top,#26344d,#080b12 70%);
+ text-align:center;
+ padding:24px 15px 40px;
+ background:radial-gradient(circle,#152b45,#050914 75%);
 }
-
-.tag{
-display:inline-block;
-border:1px solid #c79a40;
-padding:7px 16px;
-border-radius:30px;
-color:#f5c75e;
-font-size:12px;
-letter-spacing:1px;
+.hero-image{
+ width:100%;
+ max-width:850px;
+ height:430px;
+ object-fit:cover;
+ object-position:top;
+ border-radius:15px;
+ border:1px solid #d9ad40;
+ box-shadow:0 0 30px #d9ad4040;
 }
-
-h1{
-font-size:38px;
-line-height:1.2;
-margin:25px 0 15px;
-}
-
-.gold{color:#f5c75e}
-
+h1{font-size:34px;line-height:1.2;margin:22px 0}
+.gold{color:#ffd34f}
 .hero p{
-max-width:550px;
-margin:auto;
-color:#c3c9d5;
-font-size:15px;
+ color:#c8d0dc;
+ max-width:570px;
+ margin:auto;
+ font-size:15px;
 }
-
 .btn{
-display:inline-block;
-margin-top:28px;
-padding:15px 28px;
-border-radius:9px;
-background:linear-gradient(90deg,#d9a83f,#ffe08a);
-color:#101010;
-font-weight:bold;
-text-decoration:none;
+ display:inline-block;
+ margin:24px 5px 0;
+ padding:15px 25px;
+ border-radius:40px;
+ background:linear-gradient(90deg,#ffbd16,#ffe77e);
+ color:#111;
+ font-weight:bold;
+ text-decoration:none;
+ box-shadow:0 5px 20px #e5aa333d;
 }
-
-.btn2{
-display:inline-block;
-margin-top:12px;
-padding:14px 25px;
-border:1px solid #d9aa49;
-border-radius:9px;
-color:#f5c75e;
-text-decoration:none;
-font-weight:bold;
-}
-
-section{
-padding:48px 20px;
-text-align:center;
-}
-
-.section-title{
-font-size:27px;
-margin-bottom:12px;
-}
-
-.sub{
-color:#aab3c1;
-font-size:14px;
-margin-bottom:25px;
-}
-
+section{padding:48px 16px;text-align:center}
+.heading{font-size:27px;margin-bottom:10px}
+.subtitle{color:#aab6c7;font-size:14px;margin-bottom:25px}
 .cards{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:13px;
-max-width:650px;
-margin:auto;
+ display:grid;
+ grid-template-columns:repeat(2,1fr);
+ gap:14px;
+ max-width:750px;
+ margin:auto;
 }
-
 .card{
-background:linear-gradient(145deg,#172235,#101522);
-border:1px solid #303b50;
-border-radius:13px;
-padding:22px 12px;
+ padding:22px 12px;
+ border:1px solid #c89c39;
+ border-radius:14px;
+ background:linear-gradient(145deg,#192944,#0a1221);
 }
-
-.card .symbol{
-font-size:27px;
-color:#f5c75e;
-}
-
-.card h3{
-font-size:16px;
-margin:9px 0;
-}
-
-.card p{
-font-size:12px;
-color:#aeb8c8;
-}
-
+.symbol{font-size:30px;color:#ffd34f}
+.card h3{font-size:16px;margin:9px 0}
+.card p{font-size:13px;color:#b8c3d2}
 .community{
-background:linear-gradient(135deg,#18243a,#0b101b);
-border-top:1px solid #b58a36;
-border-bottom:1px solid #b58a36;
+ background:linear-gradient(130deg,#142a45,#080d19);
+ border-top:1px solid #c99e3e;
+ border-bottom:1px solid #c99e3e;
 }
-
-.community h2{
-font-size:27px;
-margin-bottom:12px;
+.points{
+ max-width:500px;
+ margin:25px auto 0;
+ text-align:left;
 }
-
-.community p{
-color:#bdc5d1;
-max-width:500px;
-margin:auto;
-font-size:14px;
-}
-
+.points p{padding:7px;color:#e2e8f0}
+.points span{color:#ffd34f;margin-right:8px}
 .disclaimer{
-background:#0c111b;
-padding:25px 20px;
-color:#929baa;
-font-size:11px;
-text-align:center;
+ background:#0b111d;
+ padding:25px 17px;
+ color:#aab4c2;
+ font-size:12px;
+ text-align:center;
 }
-
 footer{
-padding:22px;
-text-align:center;
-color:#929baa;
-font-size:12px;
+ text-align:center;
+ padding:25px 12px;
+ color:#aab4c2;
+ font-size:12px;
 }
-
-footer a{color:#f5c75e}
-
+footer strong{color:#ffd34f}
 @media(max-width:480px){
-h1{font-size:32px}
-.cards{grid-template-columns:1fr 1fr}
+ h1{font-size:29px}
+ .hero-image{height:300px}
+ .heading{font-size:24px}
+ .cards{gap:9px}
+ .card{padding:17px 8px}
 }
 </style>
 </head>
@@ -193,89 +115,103 @@ h1{font-size:32px}
 <body>
 
 <header>
-<div class="logo">♛ KING OF NIFTY</div>
+ <div class="logo">♛ KING <span>OF</span> NIFTY</div>
 </header>
 
 <div class="hero">
-<span class="tag">WELCOME TO OUR LEARNING COMMUNITY</span>
 
-<h1>
-LEARN THE MARKET.<br>
-<span class="gold">BUILD YOUR KNOWLEDGE.</span>
-</h1>
+ <img class="hero-image"
+ src="king-of-nifty-banner.png"
+ alt="King Of Nifty stock market learning banner">
 
-<p>
-Explore the world of stock markets with educational
-content covering NIFTY, BANKNIFTY, technical analysis
-and market concepts.
-</p>
+ <h1>LEARN THE MARKET.<br>
+ <span class="gold">BUILD YOUR KNOWLEDGE.</span></h1>
 
-<a class="btn" href="YOUR_TELEGRAM_LINK">
-JOIN FREE LEARNING COMMUNITY →
-</a>
+ <p>
+ Explore stock market education, NIFTY,
+ BANKNIFTY, technical analysis and market concepts.
+ </p>
+
+ <a class="btn" href="YOUR_TELEGRAM_LINK">
+ JOIN TELEGRAM COMMUNITY →
+ </a>
+
 </div>
 
 <section>
-<h2 class="section-title">WHAT YOU CAN <span class="gold">EXPLORE</span></h2>
+ <h2 class="heading">WHAT YOU CAN <span class="gold">LEARN</span></h2>
+ <p class="subtitle">Explore stock market educational resources</p>
 
-<p class="sub">Learn important stock market concepts step by step.</p>
+ <div class="cards">
+  <div class="card">
+   <div class="symbol">📊</div>
+   <h3>NIFTY EDUCATION</h3>
+   <p>Understand index movements and market concepts.</p>
+  </div>
 
-<div class="cards">
+  <div class="card">
+   <div class="symbol">📈</div>
+   <h3>BANKNIFTY</h3>
+   <p>Explore banking index fundamentals.</p>
+  </div>
 
-<div class="card">
-<div class="symbol">📊</div>
-<h3>NIFTY EDUCATION</h3>
-<p>Understand index movements and market concepts.</p>
-</div>
+  <div class="card">
+   <div class="symbol">🎯</div>
+   <h3>TECHNICAL ANALYSIS</h3>
+   <p>Learn charts, indicators and price action.</p>
+  </div>
 
-<div class="card">
-<div class="symbol">📈</div>
-<h3>BANKNIFTY</h3>
-<p>Learn banking index fundamentals and trends.</p>
-</div>
-
-<div class="card">
-<div class="symbol">🎯</div>
-<h3>TECHNICAL ANALYSIS</h3>
-<p>Explore charts, indicators and price action.</p>
-</div>
-
-<div class="card">
-<div class="symbol">📚</div>
-<h3>MARKET LEARNING</h3>
-<p>Build financial knowledge through education.</p>
-</div>
-
-</div>
+  <div class="card">
+   <div class="symbol">📚</div>
+   <h3>MARKET LEARNING</h3>
+   <p>Build your financial knowledge step by step.</p>
+  </div>
+ </div>
 </section>
 
 <section class="community">
-<h2>JOIN THE <span class="gold">COMMUNITY</span></h2>
-<p>
-Connect with fellow learners and explore
-stock market educational resources.
-</p>
+ <h2 class="heading">JOIN OUR <span class="gold">COMMUNITY</span></h2>
+ <p class="subtitle">
+ Connect with fellow learners and explore market education.
+ </p>
 
-<a class="btn" href="YOUR_TELEGRAM_LINK">
-JOIN TELEGRAM →
-</a>
+ <div class="points">
+  <p><span>✔</span> Educational Market Content</p>
+  <p><span>✔</span> NIFTY & BANKNIFTY Concepts</p>
+  <p><span>✔</span> Technical Analysis Learning</p>
+  <p><span>✔</span> Market Insights & Updates</p>
+ </div>
+
+ <a class="btn" href="YOUR_TELEGRAM_LINK">
+ JOIN FREE TELEGRAM →
+ </a>
+</section>
+
+<section>
+ <h2 class="heading">LEARN. <span class="gold">GROW.</span> IMPROVE.</h2>
+ <p class="subtitle">
+ Start exploring stock market concepts at your own pace.
+ </p>
+ <a class="btn" href="YOUR_TELEGRAM_LINK">
+ EXPLORE COMMUNITY →
+ </a>
 </section>
 
 <div class="disclaimer">
-<strong>RISK DISCLAIMER</strong>
-<p>
-This platform provides educational information only.
-Stock market investments and derivatives involve
-significant financial risk. No returns or profits
-are guaranteed. Please consult a qualified financial
-professional before making investment decisions.
-</p>
+ <strong>IMPORTANT RISK DISCLAIMER</strong>
+ <p>
+ This website provides educational information only.
+ Stock market investments and derivatives involve
+ significant financial risk. No profit or return is
+ guaranteed. Please consult a qualified financial
+ professional before making investment decisions.
+ </p>
 </div>
 
 <footer>
-<p>© 2026 King Of Nifty. All Rights Reserved.</p>
-<p>Educational Content | Privacy | Disclaimer</p>
-<p>Ads by <span class="gold">AdNovaagency</span></p>
+ <p>© 2026 King Of Nifty. All Rights Reserved.</p>
+ <p>Educational Content | Privacy Policy | Disclaimer</p>
+ <p>Ads by <strong>AdNovaagency</strong></p>
 </footer>
 
 </body>
